@@ -1,5 +1,4 @@
 # should be built with action, in remote.
-docs
 dist
 # Logs
 logs

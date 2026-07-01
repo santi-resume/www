@@ -17,19 +17,23 @@ export function WorkHistory() {
           </p>
           <div className="tasks">
             <p>
-              <b>Rust Embedded</b>:
-              <a href="https://micrors.github.io/esp32-c6/" >micrors/esp32-c6 </a> is a book for Rust Embedded development for newcomers. The book is free and open source.
+              <b>Embedded Tutorial</b>:
+              <a href="https://micrors.github.io/esp32-c6/" >micrors/esp32-c6</a> is a book for Rust Embedded development for newcomers. The book is free and open source.
             </p>
             <p>
               <b>FSF</b>:
-              Participated in the development of the <a href="https://www.fsf.org/news/fsf-is-working-on-freedom-in-machine-learning-applications">Machine Learning position</a> that the Freedom of Software Foundation will publish in the future (it's not available to the public yet).
+              Contributor to the <a href="https://www.fsf.org/news/fsf-is-working-on-freedom-in-machine-learning-applications">Machine Learning position</a> that the Freedom of Software Foundation will publish in the near future.
             </p>
             <p>
-              <b>Web Standards</b>: <em>Request for position</em> to Mozilla and Safari regarding WebNN. They are copies, here is <a href="https://github.com/mozilla/standards-positions/issues/1215">Request for position for WebNN to Mozilla</a>. Specification issues and feedback <a href="https://github.com/iampi31415?tab=overview&from=2025-04-01&to=2025-04-30">WebNN repository</a>.
+              <b>Web Standards</b>: <a href="https://github.com/mozilla/standards-positions/issues/1215">Request for position for WebNN</a> to Mozilla. Specification issues and feedback <a href="https://github.com/iampi31415?tab=overview&from=2025-04-01&to=2025-04-30">WebNN repository</a>.
             </p>
             <p>
-              <b>Learnt Rust</b>:
-              Upgrade skills for the new era of AI, and for Rust development. Besides the book, I wrote an mdbook preprocessor for <a href="https://github.com/iampi31415/mdbook-fetch">fetching remote markdown</a>. The full activity summary is <a href="https://github.com/iampi31415">over here.</a> The link is to the account I use primarily for learning.
+              <b>Rust Programming</b>:
+              mdbook-preprocessor for <a href="https://github.com/iampi31415/mdbook-fetch">fetching remote markdown</a>.
+            </p>
+            <p>
+            <b>TNT</b>:
+            Typescript implementation of the paper "<em>TNT: A Solver for Large Dense Least-Squares Problems</em>". The code can be found at <a href="https://github.com/santi-mir/fit-tnt">santi-mir/fit-tnt</a>.
             </p>
           </div>
         </li>
@@ -44,19 +48,14 @@ export function WorkHistory() {
                 href="https://www.chem.gla.ac.uk/cronin/members/santi-miranda/"
               >
                 Digital Chemistry Group
-              </a> is a research group led by <a href="https://en.wikipedia.org/wiki/Leroy_Cronin">Leroy Cronin</a>. The group develops software for a robot capable of performing chemical experiments.
+              </a> is a research group led by <a href="https://en.wikipedia.org/wiki/Leroy_Cronin">Leroy Cronin</a>.
             </p>
             <p>
-              My primary contribution was to refactor and train a Chemical Variational Auto-Encoder
+              My contribution: extending a chemical Variational Auto-Encoder
               (CVAE), that encodes molecules into vectors.
-              The neural network was trained in a <abbr>HPCC</abbr> (High Performance Computing Cluster).
-              Functionality was added to run this project in a web browser. The code is private due to licensing, but the reference work (unmaintained) project can be found
+              It was trained in a High Performance Computing Cluster.
+              The code is private due to Glasgow University's licensing policies (I can show it in an interview). Reference project:
               at <a href="https://github.com/aspuru-guzik-group/chemical_vae">aspuru-guzik-group/chemical_vae</a>.
-            </p>
-            <p>
-              After a brief period, I realise that this role was not a good fit for me,
-              primarily due to my limited experience with Robotics.
-              I decided to leave the role and take some time off, during which I implemented the paper "<em>TNT: A Solver for Large Dense Least-Squares Problems that Takes Conjugate Gradient from Bad in Theory, to Good in Practice</em>" in Typescript. The code can be found at <a href="https://github.com/santi-mir/fit-tnt">santi-mir/fit-tnt</a>.
             </p>
             <p>
               For the application to this job, I made a brief video-presentation that summarises most of my work. The presentation is <a href="https://www.youtube.com/watch?v=gpUzwnJ1Ka0">on Youtube</a>.
@@ -69,26 +68,23 @@ export function WorkHistory() {
           </p>
           <div className="tasks">
             <p>
-              <b>Chemical Data Binary Parsers</b>. <a
+              <b>Binary Parsers for Chemical Data</b>. <a
                 href="https://www.nmrium.org/about">
                 NMRium
               </a>
               is a web-platform for <abbr>NMR</abbr> (Nuclear Magnetic Resonance) visualisation and analysis.
-              My role involved
-              writing binary data parsers for NMR data. For example, a Varian
+              My role involved writing binary data parsers for NMR data. For example, a Varian
               Converter to parse (Varian/Agilent) data.
             </p>
             <p>
-              <b>Image analysis</b>. Anonymisation of personal information in Identity Cards, for Interpol and
-              other organisations. A public playground, which was used as proof-of-concept, is available at <a href="http://mrz.zakodium.com/">MRZ Website</a>. An ID-card image can be dropped or uploaded to test it.
-              The networks run locally (in your device) and no data is sent out to a server.
+              <b>Image analysis</b>. Anonymisation of personal information in Identity Cards, for Interpol and other organisations. A <a href="http://mrz.zakodium.com/">public playground</a> was used as proof-of-concept.
             </p>
             <p>
               This project involved several interesting challenges:
               <ol className="image-tasks">
                 <li>Creating a database of IDs,</li>
-                <li>Augmenting and cleaning the data,</li>
-                <li>Fine tune neural networks to remove signatures, faces and barcodes,</li>
+                <li>Augmenting and cleaning up the data,</li>
+                <li>Fine-tune neural networks to remove signatures, faces and barcodes,</li>
                 <li>Compress models to a minimum (700 KB) to reduce the latency and loading time (for example, using quantisation from floating point to integers.)
                 </li>
                 <li>New classification networks in PyTorch (from scratch), to fix the perspective of the ID card automatically.
@@ -135,6 +131,7 @@ export function WorkHistory() {
                   height={24}
                   alt="npm"
                 />
+                {" "}
                 NPM
               </a> { " "}
               <a href="https://github.com/santi-mir" className="img-link">
@@ -148,8 +145,9 @@ export function WorkHistory() {
             <strong>2020-2022</strong>: Developer Hubs
           </p>
           <div className="tasks">
+            <p>Besides my work for EPFL and Zakodium, I remained active in programming forums througout 2020-2024.</p>
             <p>
-              Active member of the <a href="https://www.mongodb.com/community/forums/u/santimir/summary">
+              For example, I helped others in the <a href="https://www.mongodb.com/community/forums/u/santimir/summary">
                 MongoDB Developers Forum
               </a>.
             </p>

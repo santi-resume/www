@@ -8,8 +8,7 @@ export function Hobbies() {
             <strong>Gap Year</strong>
           </p>
           <p>
-            During 2019-2021 I volunteered at farms, hostels, and other places
-            while travelling. In my spare time I learnt Javascript.
+            During part of 2020 (lockdown) I volunteered at remote places like farms. In my spare time, I learnt Javascript.
             As a learning exercise during this process, I {" "}
             <a href="https://misterybodon.github.io/web/">coded a blog</a>.
             Later on, this experience helped me land my first job as a Typescript Developer.
@@ -20,22 +19,21 @@ export function Hobbies() {
             <strong>Time in Nature</strong>
           </p>
           <p>
-            Jogging or walking outdoors help disconnect and recharge.
+            I enjoy jogging or walking outdoors.
           </p>
           <p>
-            After volunteering for Buddhist
-            Centres I made a habit of meditating and breathing exercises.
-            I perform this daily, early in the morning.
+            To start the day, I do meditation and breathing exercises, sometimes at home, and sometimes in Nature, depending on the weather.
           </p>
         </li>
         <li>
           <p>
-            <strong>Computer-Related Hobbies</strong>
+            <strong>Writing</strong>
           </p>
           <p>
-            I like to learn about programming languages. The most recent one is Rust.
-            Another hobby of mine is to experiment with Arduinos or ESP32s, primarily to program its sensors.
-            I also like philosophy and physics.
+            During 2025 I learnt Rust and experimented with ESP32s, and wrote a brief book for beginners about how to set microcontrollers up for programming with Rust (on Unix systems).
+          </p>
+          <p>
+            During 2026, I <a href="santi-mir.github.io/posts"> started a blog</a> on Explainable AI and AI for chemistry.
           </p>
         </li>
       </ul>
