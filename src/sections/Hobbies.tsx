@@ -33,7 +33,7 @@ export function Hobbies() {
             During 2025 I learnt Rust and experimented with ESP32s, and wrote a brief book for beginners about how to set microcontrollers up for programming with Rust (on Unix systems).
           </p>
           <p>
-            During 2026, I <a href="santi-mir.github.io/posts"> started a blog</a> on Explainable AI and AI for chemistry.
+            During 2026, I <a href="https://santi-mir.github.io/posts"> started a blog</a> on Explainable AI and AI for chemistry.
           </p>
         </li>
       </ul>
